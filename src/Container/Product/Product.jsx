@@ -17,8 +17,8 @@ class Product extends Component{
                <div className="container">
                     <div className="header">
                         <h1>Jumlah checkout</h1>
-                        <button type="button" class="btn btn-primary">
-                            Notifications <span class="badge bg-secondary count">{this.state.order}</span>
+                        <button type="button" className="btn btn-primary">
+                            Notifications <span className="badge bg-secondary count">{this.state.order}</span>
                         </button>
                     </div>
                    <CardProduct onCounterChange={(value)=> this.handleCounterChange(value) }/>

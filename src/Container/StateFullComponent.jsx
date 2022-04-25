@@ -5,3 +5,4 @@ class StateFullComponent extends React.Component{
         return <p>StateFull Component</p>
     }
 }
+export default StateFullComponent;
